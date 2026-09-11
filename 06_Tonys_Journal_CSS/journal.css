@@ -1,3 +1,30 @@
+@font-face {
+    font-family: "Emblema One";
+    src: url("https://cdn.jsdelivr.net/fontsource/fonts/emblema-one@5.3.0/latin-400-normal.woff2") format("woff2"),
+    url("fonts/EmblemaOne-Regular.ttf") format("truetype");
+}
+
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+}
+
+h1, h2 {
+    color: #d47f2a;
+    border-bottom: thin dotted #888888;
+}
+
+
+h1 {
+    font-family: "Emblema One", sans-serif;
+    font-size: 220%;
+}
+
+h2 {
+    font-size: 130%;
+    font-weight: normal;
+}
+
+blockquote {
+    font-style: italic;
 }
