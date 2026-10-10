@@ -18,26 +18,82 @@ h2 {
 
 #guarantee {
     line-height: 1.9em;
+
     font-style: italic;
     font-family: Georgia, 'Times New Roman', Times, serif;
+
     color: #444444;
-    border-color: #222222;
-    border-width: 3px;
-    border-style: dotted;
-    border-color: white;
+    border: 3px dotted white;
     border-radius: 30px;
-    background-color: #a7cece;
+    
     padding: 2%;
     padding-left: 82px;
+
     margin:30px;
-    margin-right: 22%;
+    margin-right: 300px;
+    
     background-image: url(images/background.gif);
+    background-color: #a7cece;
     background-repeat: no-repeat;
     background-position: top left;
 }
 
 #elixirs {
-    border-width: thin;
-    border-style: solid;
-    border-color: #007e7e;
+    font-size: medium;
+    line-height: 1;
+
+    border: medium solid #007e7e;
+    width: 200px;
+    padding: 0px 20px 20px 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+
+    text-align: center;
+    background: url(images/cocktail.gif) repeat-x;
+
+    float: right;
+}
+
+#elixirs h2 {
+    color: black;
+}
+
+#elixirs h3 {
+    color: #d12c47;
+}
+
+#footer {
+    font-size: 50%;
+    text-align: center;
+    line-height: normal;
+    margin-top: 30px;
+}
+
+.cd {
+    font-style: italic;
+}
+
+.artist {
+    font-weight: bold;
+}
+
+#elixirs a:link {
+    color: #007e7e;
+}
+
+#elixirs a:visited {
+    color: #333333;
+}
+
+#elixirs a:hover {
+    background: #f88396;
+    color: #0d5353;
+}
+
+a:link {
+    color: #007e7e;
+}
+
+a:visited {
+    color: #333333;
 }
